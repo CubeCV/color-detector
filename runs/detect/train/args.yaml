@@ -12,10 +12,10 @@ cache: false
 device: null
 workers: 8
 project: null
-name: train
+name: train7
 exist_ok: false
 pretrained: true
-optimizer: auto
+optimizer: Adam
 verbose: true
 seed: 0
 deterministic: true
@@ -25,7 +25,7 @@ cos_lr: false
 close_mosaic: 10
 resume: false
 amp: true
-fraction: 1.0
+fraction: 0.8
 profile: false
 freeze: null
 overlap_mask: true
@@ -95,4 +95,4 @@ mixup: 0.0
 copy_paste: 0.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/detect/train
+save_dir: runs/detect/train7
