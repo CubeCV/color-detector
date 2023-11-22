@@ -16,7 +16,7 @@ def main(model_path, image_path):
     model = YOLO(model_path)
 
     # Predict on image
-    results = model(image_path)
+    results = model(image_path, save=True)
 
 
 if __name__ == "__main__":
